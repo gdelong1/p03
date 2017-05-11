@@ -1,0 +1,82 @@
+/*-- Author: Garrett De Long */
+nav > div{
+  background-color: red;
+}
+.navigation{
+  text-decoration: none;
+}
+.nav-tab a:hover{
+  color: hotpink;
+}
+
+.center{
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  top: 6%;
+  left: 45%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center1{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 15%;
+  left: 27%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center2{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 8%;
+  left: 78%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center3{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 10%;
+  left: 5%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center4{
+  position: absolute;
+  top: 13%;
+  left: 60%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+
+#quizresult{
+  position: absolute;
+  top: 99%;
+  left: 50%;
+  margin-left: -50px;
+  margin-top: -25px;
+  color:blue;
+}
+
+.size{
+  font-size: 83%
+}
+span{
+  color: red;
+}
+
+p{
+  font-size: 125%;
+}
+
+.main {margin: 0 auto; max-width: 500px;}
+.main .quizsection {margin-bottom: 20px;}
+#quiz{padding: 50px 0; font-weight: 400; text-align: center;}
+.top { padding-right: 20px; background: #261F41; text-align: right; }
+@import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
+*, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
+a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 42px; }

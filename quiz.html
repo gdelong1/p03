@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!-- Author: Garrett De Long -->
+<html>
+ <head>
+   <title>Quiz</title>
+   <meta charset="UTF-8" />
+   <title>Simple Multiple Choice Quiz with JavaScript</title>
+   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="stylesheet" type="text/css" href="p03.css">
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+    integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+    crossorigin="anonymous">
+   <script type="text/javascript" src="p03.js"></script>
+</head>
+
+<body>
+  <nav>
+    <div class="nav-tab" style="float: left; width: 25%">
+      <a class="navigation" href="index.html">Home</a>
+    </div>
+    <div class="nav-tab" style="float: left; width: 25%">
+      <a class="navigation" href="history.html">History of Running</a>
+    </div>
+    <div class="nav-tab" style="float: right; width: 25%">
+      <a class="navigation" href="form.html">Proper Running Form</a>
+    </div>
+    <div class="nav-tab" style="float: right; width: 25%">
+      <a class="navigation" href="quiz.html">Quiz</a>
+    </div>
+  </nav>
+
+<h1 id="quiz">Running Quiz</h1>
+
+<section class="main">
+
+<form name="quiz" action="javascript:check();" class="quizform">
+
+<div class="quizsection">
+	<h3>1. Who broke the 4 minute mile first?</h3>
+	<div class="answer">
+		<input name="q1" value="value1" id="value1" type="radio" checked="checked" /> Me
+	</div>
+	<div class="answer">
+		<input name="q1" value="value2" id="value2" type="radio" /> Roger Bannister
+	</div>
+	<div class="answer">
+		<input name="q1" value="value3" id="value3" type="radio" /> Tyson Henry
+	</div>
+	<div class="answer">
+		<input name="q1" value="value4" id="value4" type="radio" /> Gary Towne
+	</div>
+</div>
+
+<div class="quizsection">
+	<h3>2. When did the first competitive running event occur?</h3>
+	<div class="answer">
+		<input name="q2" value="value1" id="value1" type="radio" checked="checked" /> Yesterday
+	</div>
+	<div class="answer">
+		<input name="q2" value="value2" id="value2" type="radio" /> 2000 AD
+	</div>
+	<div class="answer">
+		<input name="q2" value="value3" id="value3" type="radio" /> 1111 AD
+	</div>
+	<div class="answer">
+		<input name="q2" value="value4" id="value4" type="radio" /> 776 BCE
+	</div>
+</div>
+
+<div class="quizsection">
+ <h3>3. What substance do athletets commonly abuse?</h3>
+	<div class="answer">
+		<input name="q3" value="value1" id="value1" type="radio" checked="checked" /> EPO
+	</div>
+	<div class="answer">
+		<input name="q3" value="value2" id="value2" type="radio" /> Sugar
+	</div>
+	<div class="answer">
+		<input name="q3" value="value3" id="value3" type="radio" /> Caffeine
+	</div>
+	<div class="answer">
+		<input name="q3" value="value4" id="value4" type="radio" /> Alcohol
+	</div>
+</div>
+
+<div class="quizsection">
+	<h3>4. Who ran the first marathon?</h3>
+	<div class="answer">
+		<input name="q4" value="value1" id="value1" type="radio" checked="checked" /> Usain Bolt
+	</div>
+	<div class="answer">
+		<input name="q4" value="value2" id="value2" type="radio" /> Kevin
+	</div>
+	<div class="answer">
+		<input name="q4" value="value3" id="value3" type="radio" /> Pheidippides
+	</div>
+	<div class="answer">
+		<input name="q4" value="value4" id="value4" type="radio" /> Alexander the Great
+	</div>
+</div>
+
+<div class="quizsection">
+	<h3>5. Why is form so important?</h3>
+	<div class="answer">
+		<input name="q5" value="value1" id="value1" type="radio" checked="checked" /> Makes you more effecient
+	</div>
+	<div class="answer">
+		<input name="q5" value="value2" id="value2" type="radio" /> Makes you look better
+	</div>
+	<div class="answer">
+		<input name="q5" value="value3" id="value3" type="radio" /> Makes you slower
+	</div>
+	<div class="answer">
+		<input name="q5" value="value4" id="value4" type="radio" /> Form is fun
+	</div>
+</div>
+<input value="Submit" type="submit" /> <input value="Reset" type="reset" />
+<h2 id="quizresult"></h2>
+
+</form>
+
+</section>
+
+</body>
+</html>

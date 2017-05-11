@@ -1,0 +1,69 @@
+nav > div{
+  background-color: orange;
+}
+.navigation{
+  text-decoration: none;
+}
+.nav-tab a:hover{
+  color: hotpink;
+}
+body{
+  background-color: silver;
+}
+.center{
+  position: absolute;
+  width: 600px;
+  height: 50px;
+  top: 10%;
+  left: 37%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center1{
+  position: absolute;
+  width: 400px;
+  height: 200px;
+  top: 20%;
+  left: 27.5%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center2{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 8%;
+  left: 48%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+.center3{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 20%;
+  left: 44%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+#center4{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 8%;
+  left: 41%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+#center5{
+  position: absolute;
+  width: 400px;
+  height: 50px;
+  top: 8%;
+  left: 43%;
+  margin-left: -50px;
+  margin-top: -25px;
+}
+span{
+  color: red;
+}
