@@ -75,8 +75,8 @@ p{
 
 .main {margin: 0 auto; max-width: 500px;}
 .main .quizsection {margin-bottom: 20px;}
-#quiz{padding: 50px 0; font-weight: 400; text-align: center;}
+#quiz{padding: 50px; font-weight: 400; text-align: center;}
 .top { padding-right: 20px; background: #261F41; text-align: right; }
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:400,600,700');
 *, *:before, *:after {margin: 0; padding: 0; box-sizing: border-box;}
-a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 42px; }
+a { color: rgba(255,255,255,0.6); text-transform: uppercase; text-decoration: none; line-height: 40px; }
